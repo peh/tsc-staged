@@ -1,0 +1,19 @@
+{
+  "name": "tsc-staged",
+  "version": "1.0.0",
+  "description": "A small utlitity to typescript compile all files and report errors on staged files",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
